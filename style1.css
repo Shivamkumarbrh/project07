@@ -28,9 +28,15 @@
     margin-top:40px;
     padding: 40px 0px;
 }
-.l-container p{
+.l-container a{
+    display: block;
+    text-decoration: none;
+    color: #333;
     text-align: center;
     padding: 10px 0px;
+}
+.l-container a:hover{
+    background-color: #ddd;
 }
 .r-container{
     width: 100%;
@@ -135,6 +141,10 @@
     border: none;
     margin: 10px 0px;
     padding: 15px 16px;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: #aaa;
 }
 @media screen and (min-width:600px) and (max-width:992px) {
   .l-container{
