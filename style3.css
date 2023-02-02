@@ -1,5 +1,6 @@
 .r-sixth{
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     box-sizing: border-box;
     background-color: #aaa;
